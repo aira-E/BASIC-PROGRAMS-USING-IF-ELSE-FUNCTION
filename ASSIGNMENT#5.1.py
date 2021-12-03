@@ -1,6 +1,7 @@
 # PUP GRADING SYSTEM
 print ("Good day! Iskolar ng Bayan!")
-grades = float (input ("What is your grade (in percentage) this semester? "))
+user_input = float (input ("What is your grade (in percentage) this semester? "))
+grades = round (user_input)
 if grades >= 97 and grades <= 100:
     print ("You got 1.0, Excellent!")
 elif grades >= 94 and grades <= 96:
